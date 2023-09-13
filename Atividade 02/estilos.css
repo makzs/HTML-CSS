@@ -1,0 +1,100 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 15px;
+    background-color: white;
+}
+
+p{
+    color: black;
+}
+
+table{
+    border-collapse: collapse;
+    width: 80%;
+    margin: 0 auto;
+}
+
+th, td{
+    border: 1px solid lightgray;
+    height: 30px;
+}
+
+tr:nth-child(odd) td{
+    background-color: rgb(233, 233, 233);
+}
+
+td{
+    padding-left: 13px;
+}
+
+.titulo{
+    color: lightgray;
+}
+
+.div1{
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: lightgray;
+    width: 140px;
+}
+
+.div2{
+    border: 1px solid lightgray;
+    background-color: lightgray;
+}
+
+.cor{
+    background-color: lightgray;
+}
+
+#vermelho{
+    margin-left: 0;
+    font-size: small;
+    font-weight: bold;
+    color: red;
+    padding-left: 5px;
+}
+
+#preto{
+    margin-left: 0;
+    font-size: small;
+    font-weight: bold;
+    padding-left: 5px;
+}
+
+.sinopse{
+    font-size: medium;
+    text-align: justify;
+    line-height: 26px;
+}
+
+.imagem{
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.info{
+    line-height: 23px;
+    margin-left: 400px;
+    margin-right: 400px;
+    background-color: lightgray;
+    font-size: medium;
+    text-align: center;
+}
+
+.negrito{
+    font-weight: bold;
+}
+
+.negritocor{
+    font-weight: bold;
+    background-color: lightgray;
+    margin: 0px;
+}
+
+hr{
+    background-color: lightblue;
+    height: 1px;
+    border: 0;
+}
