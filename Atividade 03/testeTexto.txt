@@ -1,0 +1,23 @@
+link https://flexboxfroggy.com/    
+
+flex-start: Lines are packed at the top of the container.
+flex-end: Lines are packed at the bottom of the container.
+center: Lines are packed at the vertical center of the container.
+space-between: Lines display with equal spacing between them.
+space-around: Lines display with equal spacing around them.
+stretch: Lines are stretched to fit the container.
+
+<h1>Neuromancer: <span id="Span_Cinza">1 Capa comum - 19 agosto 2016</span></h1>
+    <p> Edição Português <span id="linha">|</span> por <span id="autor">William Gibson</span> <span id="detalhe1">(Autor)</span>, <span id="tradutor">Fábio Fernandes</span> <span id="detalhe2">(Tradutor)</span></p>
+    <p id="avaliação"> 2.664 avaliações de clientes</p>
+    <hr>
+    <div>
+        <p>Kindle</p>
+        <p>R$ 42,74</p>
+    </div>
+    <p>Leia com nossos apps gratuitos</p>
+    <div>
+        <p>Capa comum</p>
+        <p>R$ 44,99</p>
+    </div>
+    <p>5 Usado a partir de R$ 24,00</p>
