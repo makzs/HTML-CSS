@@ -1,0 +1,33 @@
+.container{
+    display: grid;
+    grid-template-columns: 10% 30% 50% 10%;
+    column-gap: 70px;
+    grid-template-areas: "item-1 item-1 item-1" "item-2 item-3 item-3" "item-4 item-4 item-4";
+}
+
+.itens{
+    background-color: cornflowerblue;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.item-1{
+    grid-area: item-1;
+}
+
+.item-2{
+    grid-area: item-2;
+    padding: 10px;
+    border-right: 1px solid gray;
+}
+
+.item-3{
+    grid-area: item-3;
+    padding: 10px;
+    padding-bottom: 150px;
+}
+
+.item-4{
+    grid-area: item-4;
+}

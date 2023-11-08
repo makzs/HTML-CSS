@@ -1,0 +1,40 @@
+.container{
+    display: grid;
+    gap: 8px;
+    grid-template-areas: "item-1 item-1 item-1" "item-2 item-2 item-3" "item-4 item-5 item-5 ";
+
+}
+
+p{
+    text-align: center;
+}
+
+.itens{
+    border-radius: 10px;
+}
+
+.item-1{
+    grid-area: item-1;
+    background-color: lightblue;
+}
+
+.item-2{
+    grid-area: item-2;
+    background-color: lightsalmon;
+    padding: 200px;
+}
+
+.item-3{
+    grid-area: item-3;
+    background-color: salmon;
+}
+
+.item-4{
+    grid-area: item-4;
+    background-color: salmon;
+}
+
+.item-5{
+    grid-area: item-5;
+    background-color: lightblue;
+}

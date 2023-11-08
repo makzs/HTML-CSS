@@ -1,0 +1,42 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    gap: 8px;
+    grid-template-areas: "item-1 item-1 item-1" "item-2 item-3 item-4" "item-5 . item-6 ";
+}
+
+.itens{
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.item-1{
+    grid-area: item-1;
+    background-color: lime;
+}
+
+.item-2{
+    grid-area: item-2;
+    background-color: orange;
+}
+
+.item-3{
+    grid-area: item-3;
+    background-color: cornflowerblue;
+}
+
+.item-4{
+    grid-area: item-4;
+    background-color: deeppink;
+}
+
+.item-5{
+    grid-area: item-5;
+    background-color: green;
+}
+
+.item-6{
+    grid-area: item-6;
+    background-color: yellow;
+}
